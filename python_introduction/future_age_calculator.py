@@ -1,3 +1,3 @@
-current_age = int(input("What is your current age?"))
+current_age = int(input("How old are you?"))
 age = 27 + current_age 
 print("In 2050, you will be", age, "years old")
