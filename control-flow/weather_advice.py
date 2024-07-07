@@ -1,4 +1,4 @@
-int("What's the weather like today? (sunny/rainy/cold):")
+weather = int("What's the weather like today? (sunny/rainy/cold):")
 
 if (weather is "sunny"):
     print("Wear a t-shirt and sunglasses.")
