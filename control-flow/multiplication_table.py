@@ -1,4 +1,4 @@
-number = int(input("Enter a number to see its multiplication table."))
+number = int(input("Enter a number to see its multiplication table: "))
 
 for n in range (1, 10+1):
     Z = number * n
