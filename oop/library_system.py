@@ -22,7 +22,7 @@ class PrintBook(Book):
 class Library:
     books = [
         Book,
-        Ebook,
+        EBook,
         PrintBook
     ]
     def add_book(self, books):
@@ -30,7 +30,7 @@ class Library:
 
     def list_books(self):
         print(Book(self.title, self.author))
-        print(Ebook(self.title, self.author, self.file_size))
+        print(EBook(self.title, self.author, self.file_size))
         print(PrintBook(self.title, self.author, self.page_count))
 
 
