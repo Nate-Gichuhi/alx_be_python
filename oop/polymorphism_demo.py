@@ -2,7 +2,7 @@ class Shape:
     def area(self):
         raise NotImplementedError
     
-class Recatngle(Shape):
+class Rectangle(Shape):
     def __init__(self, length, width):
         self.length = length
         self.width = width
