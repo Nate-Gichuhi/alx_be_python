@@ -2,7 +2,7 @@ class Shape:
     def area(self):
         raise NotImplementedError
     
-class Rectngle(Shape):
+class Rectangle(Shape):
     def area(self):
         lenth = int(input("Enter lenth:"))
         width = int(input("Enter width:"))
