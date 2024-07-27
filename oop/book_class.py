@@ -8,8 +8,9 @@ class Book:
         return  "{self.title} by {self.athor},published in {self.year}"
     
     def __repr__(self):
-        return Book(self.title, self.author, self.year)
+        return Book('{self.title}','{self.author}' , '{self.year}')
     
     def __del__(self):
-        self.close(Book(title=self.title, author=self.author, year=self.year))
+        self.close(Book(title=self.title))
+        
 
