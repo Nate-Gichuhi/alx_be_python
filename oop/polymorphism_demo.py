@@ -10,7 +10,7 @@ class Rectangle(Shape):
     def area(self):
         self.lenth = int(input("Enter lenth:"))
         self.width = int(input("Enter width:"))
-        area = self.lenth * self.width
+        return self.lenth * self.width
 
 class Circle(Shape):
     def __init__(self, radius):
@@ -19,6 +19,6 @@ class Circle(Shape):
     def area(self):
         self.radius = float(input("Enter radius:"))
         import math
-         return math.pi * self.radius ** 2
+         return math.pi * self.radius **2
         
         
